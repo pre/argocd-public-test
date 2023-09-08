@@ -4,6 +4,8 @@ metadata:
   labels:
     app: hello-1
   name: hello-1
+  annotations:
+    ag-hello: "{{AG_HELLO}}"
 spec:
   replicas: 1
   selector:
